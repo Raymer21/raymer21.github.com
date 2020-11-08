@@ -1,3 +1,4 @@
+/*easy start of css to make some errors not haoppen*/
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 
 
 
-
+/*litterly the whole background*/
 
 header{
 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1920x1080.png);
@@ -15,17 +16,19 @@ header{
 	background-position: center;
 }
 
+/* About Me Text */
 .about {
-    float: middle;
+	float: middle;
     font-size: x-large; 
     color: red;
     margin: middle;
     font-weight: 900;
     font-weight: bolder;
-
-
+	
+	
 }
 
+/* nav bar */
 
 ul{
 	float: right;
@@ -61,3 +64,4 @@ ul li.active a{
 	background-color: #fff;
 	color: #000;
 }
+/* end of nav bar */
