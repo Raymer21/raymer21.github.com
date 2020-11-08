@@ -133,12 +133,12 @@ header {
 
 .amount {
     position: absolute;
-    width: 60vw;
+    width: 62vw;
     height: auto;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 8vw;
     text-align: center;
-    margin-top: 13vh;
+    margin-top: 14vh;
     margin-left: 20vw;
 }
 
@@ -171,9 +171,9 @@ header {
 
 .cookie {
     position: absolute;
-    margin-top: 33vh;
+    margin-top: 32vh;
     margin-left: 35vw;
-    width: 30vw;
+    width: 29vw;
     height: auto;
     cursor: pointer;
 }
@@ -196,7 +196,7 @@ header {
     width: 19.02vw;
     height: 100%;
     text-align: center;
-    font-size: 3vw;
+    font-size: 10vw;
 }
 
 footer {
@@ -216,6 +216,7 @@ footer {
     font-size: 3vw;
     background-color: #b3d9ff;
     cursor: pointer;
+    margin-top: vh;
 }
 
 .clickAmount, .millAmount, .factoryAmount, .businessAmount, .monopolyAmount {
@@ -232,4 +233,8 @@ footer {
     -webkit-user-drag: none;
     -moz-user-drag: none;
     -ms-user-drag: none;
+}
+
+.clickAmount, .millAmount, .factoryAmount, .businessAmount, .monopolyAmount {
+    margin-top: 3.9vh;
 }
