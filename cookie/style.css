@@ -1,0 +1,234 @@
+body {
+    background-color: #ff0055;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+}
+
+header {
+    position: absolute;
+    width: 60vw;
+    height: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 20vw;
+    text-decoration: underline;
+}
+
+.howTo {
+    position: absolute;
+    background-color: #cce6ff;
+    width: 10vw;
+    padding: 3vh 4vw;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 17px;
+    cursor: pointer;
+    left: 70vw;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.howToPopup {
+    position: absolute;
+    z-index: 1;
+    height: 70vh;
+    width: 80vw;
+    top: 15vh;
+    border-radius: 6vw;
+    left: 10vw;
+    right: 10vw;
+    background-color: #e6f3ff;
+    display: none;
+}
+
+.popupX {
+    position: absolute;
+    width: 5vw;
+    height: auto;
+    top: 1vh;
+    right: 2.5vw;
+    cursor: pointer;
+}
+
+.popupParHowTo, .popupParStats, .popupParAchievements, .popupParAbout {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    right: 10%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 3.2vh;
+    text-align: center;
+}
+
+.leftNav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18vw;
+    height: 30vh;
+    background-color: white;
+    border-right: solid;
+    border-bottom: solid;
+}
+
+.stats, .achievements, .about {
+    position: absolute;
+    left: 0;
+    width: 18vw;
+    height: 2vh;
+    text-align: center;
+    padding: 4vh 0;
+    overflow-wrap: break-word;
+    font-size: 2.5vw;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.stats:hover, .achievements:hover, .about:hover {
+    opacity: .8;
+}
+
+.stats {
+    top: 0;
+    background-color: #ff6666;
+}
+
+.achievements {
+    top: 10vh;
+    background-color: #4d4dff;
+}
+
+.about {
+    top: 20vh;
+    background-color: #00cc00;
+}
+
+.statsPopup, .achievementsPopup, .aboutPopup {
+    position: absolute;
+    z-index: 1;
+    height: 70vh;
+    width: 80vw;
+    top: 15vh;
+    border-radius: 6vw;
+    left: 10vw;
+    right: 10vw;
+    background-color: #e6f3ff;
+    display: none;
+}
+
+.statsCategories {
+    position: absolute;
+    height: 50vh;
+    width: 77vw;
+    top: 9vh;
+    left: 3vw;
+    text-align: left;
+    font-size: 3vw;
+}
+
+.amount {
+    position: absolute;
+    width: 60vw;
+    height: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 13vh;
+    margin-left: 20vw;
+}
+
+.achievementSort {
+    position: absolute;
+    top: 10vh;
+    width: 80vw;
+    height: 55vh;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.achievementSort::-webkit-scrollbar {
+    display: none;
+}
+
+.achievementSort > div {
+    width: 11em;
+    height: 5em;
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: #80c1ff;
+    border-radius: 1.5vw;
+    margin: 1vw;
+    cursor: pointer;
+    display: inline-block;
+    opacity: .3;
+    vertical-align:top
+}
+
+.cookie {
+    position: absolute;
+    margin-top: 33vh;
+    margin-left: 35vw;
+    width: 30vw;
+    height: auto;
+    cursor: pointer;
+}
+
+.cookie:hover {
+    opacity: 0.85;
+}
+
+.amountUpgrades {
+    position: absolute;
+    bottom: 22vh;
+    left: 0;
+    width: 100vw;
+    height: 4vh;
+}
+
+.amountClick, .amountMill, .amountFactory, .amountBusiness, .amountMonopoly {
+    display: inline-block;
+    vertical-align: top;
+    width: 19.02vw;
+    height: 100%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 22vh;
+}
+
+.clickUpgrade, .millUpgrade, .factoryUpgrade, .businessUpgrade, .monopolyUpgrade {
+    display: inline-block;
+    vertical-align: top;
+    width: 19.02vw;
+    height: 100%;
+    text-align: center;
+    font-size: 3vw;
+    background-color: #b3d9ff;
+    cursor: pointer;
+}
+
+.clickAmount, .millAmount, .factoryAmount, .businessAmount, .monopolyAmount {
+    position: absolute;
+    top: 9vh;
+    width: 19vw;
+    bottom: 0;
+    font-size: 3.5vw;
+    overflow-wrap: break-word;
+}
+
+/* No Drag */
+.cookie, .popupX {
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+}
