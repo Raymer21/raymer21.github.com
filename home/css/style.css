@@ -84,3 +84,11 @@ ul li.active a{
 	color: #000;
 }
 
+.veterans-day {
+	color: red;
+	position: absolute;
+	bottom: 10px;
+	width: 16.2%;
+	border: 5px solid #ff0000;
+}
+
