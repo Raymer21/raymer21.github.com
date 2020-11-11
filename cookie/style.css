@@ -238,3 +238,7 @@ footer {
 .clickAmount, .millAmount, .factoryAmount, .businessAmount, .monopolyAmount {
     margin-top: 3.9vh;
 }
+
+.cookies, .amount {
+    margin-top: -9vh;
+}
