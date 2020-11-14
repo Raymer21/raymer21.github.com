@@ -1,5 +1,7 @@
 body {
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1920x1080.png);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/1920x1080.png);
+    /* background-repeat: no-repeat; */
+    background-attachment: scroll;
     /* background-color: #ff0055; */
     user-select: none;
     -webkit-user-select: none;
@@ -242,5 +244,7 @@ footer {
 .cookies, .amount {
     margin-top: -9vh;
 }
+
+
 
 
