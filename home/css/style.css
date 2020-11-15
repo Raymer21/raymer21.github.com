@@ -110,3 +110,12 @@ ul li.active a{
 	width: 8.9rem;
 	cursor: pointer;
 }
+
+.music {
+	position: absolute;
+	right: 0px;
+	top: 1.5rem;
+}
+
+
+
