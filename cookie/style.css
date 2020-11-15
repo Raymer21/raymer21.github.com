@@ -9,17 +9,12 @@ body {
     -moz-user-select: none;
 }
 
-header {
-    position: absolute;
-    width: 60vw;
-    height: auto;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 8vw;
-    text-align: center;
-    margin-top: 0;
-    margin-left: 20vw;
-    text-decoration: underline;
+body {
+	background-image: url("/1920x1080.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
+
 
 .howTo {
     position: absolute;
