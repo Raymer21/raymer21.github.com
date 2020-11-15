@@ -106,7 +106,6 @@ ul li.active a{
 }
 
 .privacy-policy:hover {
-	background-color: red;
 	width: 8.9rem;
 	cursor: pointer;
 }
