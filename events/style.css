@@ -75,3 +75,26 @@ color: #000;
 }
 
 
+.smirk-events h1{
+  width: 20rem;
+}
+
+
+.smirk-events-thanksgiving {
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  color: red;
+  border: 5px solid black;
+  transform: translateY(-50%);
+  width: 31.2rem;
+}
+
+#link2 {
+  color: red;
+  font-size: x-large;
+}
+
+.smirk-events-thanksgiving, #link2 {
+  font-size: x-large;
+}
