@@ -52,13 +52,7 @@ color: #000;
 }
 
 
-.stream-schedule {
-	color: red;
-	position: absolute;
-	bottom: 0px;
-	border: 3px solid #ff0000;
-	right: 11px;
-}
+
 
 
 .smirk-events {
@@ -70,3 +64,14 @@ color: #000;
     margin-left: -960px;
     font-size: x-large;
 }
+
+#link1 {
+  color: red;
+  font-size: larger;
+}
+
+.smirk-events {
+  border: 5px solid black;
+}
+
+
