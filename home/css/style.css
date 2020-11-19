@@ -106,8 +106,12 @@ ul li.active a{
 }
 
 .privacy-policy:hover {
-	width: 8.9rem;
 	cursor: pointer;
+}
+
+.privacy-policy{
+	background-color: rgb(25, 0, 255);
+		width: 8.9rem;
 }
 
 .music {
