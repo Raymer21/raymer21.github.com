@@ -45,7 +45,11 @@ max-width: 1200px;
 margin: auto;
 right: 100%;
 
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
+
 ul li.active a{
 background-color: #fff;
 color: #000;
