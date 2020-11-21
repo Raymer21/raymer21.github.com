@@ -45,10 +45,6 @@ color: #000;
 max-width: 1200px;
 margin: auto;
 right: 100%;
-
-  position: fixed;
-  top: 0px;
-  width: 100%;
 }
 
 ul li.active a{
@@ -62,11 +58,11 @@ color: #000;
 
 .smirk-events {
 	color: red;
-    position: fixed;
+    /* position: absolute;
     top: 50%;
     left: 50%;
     margin-top: -370px;
-    margin-left: -960px;
+    margin-left: -960px; */
     font-size: x-large;
 }
 
@@ -75,24 +71,21 @@ color: #000;
   font-size: larger;
 }
 
-.smirk-events {
-  border: 5px solid black;
-}
 
 
 .smirk-events h1{
-  width: 20rem;
+  width: 50rem;
 }
 
 
 .smirk-events-thanksgiving {
   position: absolute;
-  right: 0%;
-  top: 50%;
+  /* right: 0%;
+  top: 50%; */
   color: red;
-  border: 5px solid black;
+
   transform: translateY(-50%);
-  width: 31.2rem;
+  width: 50rem;
 }
 
 #link2 {
@@ -102,4 +95,15 @@ color: #000;
 
 .smirk-events-thanksgiving, #link2 {
   font-size: x-large;
+  right: 1px;
+}
+
+.events {
+  position: absolute;
+  left: 500px;
+  top: 300px;
+  transform: translateY(-50%);
+}
+.smirk-events-thanksgiving {
+  bottom: -39rem;
 }
