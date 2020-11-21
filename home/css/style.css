@@ -1,6 +1,8 @@
 *{
 		margin: 0;
 		padding: 0;
+		border: 0;
+		box-sizing: border-box;
 		font-family: Century Gothic;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -98,15 +100,6 @@ ul li.active a{
 .stream-schedule:hover {
 	background-color: white;
 	color: red;
-}
-.raymer21Header:hover {
-	background-color: white;
-	color: red;
-	cursor: pointer;
-}
-
-.privacy-policy:hover {
-	cursor: pointer;
 }
 
 .privacy-policy{
