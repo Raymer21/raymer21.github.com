@@ -97,10 +97,7 @@ ul li.active a{
 	left: 11px;
 }
 
-.stream-schedule:hover {
-	background-color: white;
-	color: red;
-}
+
 
 .privacy-policy{
 	background-color: rgb(25, 0, 255);
