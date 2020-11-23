@@ -20,7 +20,7 @@ body {
 }
 
 ul{
-	float: right;
+	float: right; 
 	list-style-type: none;
 	margin-top: 25px;
 }
