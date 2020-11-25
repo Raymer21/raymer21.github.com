@@ -1,47 +1,28 @@
-/*easy start of css to make some errors not haoppen*/
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Century Gothic;
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
-
-
-/*litterly the whole background*/
-
 body {
-	background-image: url("/1920x1080.png");
+	background-image: url(/Ryamer21-background.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
-
-/* About Me Text */
-.about {
-	float: middle;
-    font-size: x-large; 
-    color: red;
-    margin: middle;
-    font-weight: 900;
-    font-weight: bolder;
-	
-	
-}
-
-/* nav bar */
-
-ul{
+ul {
 	float: right;
 	list-style-type: none;
-	margin-top: 25px;
+	margin-top: 60px;
+	margin-right: 70px;
 }
 
 
-ul li{
+ul li {
 	display: inline-block;
 }
 
-ul li a{
+ul li a {
 	text-decoration: none;
 	color: #fff;
 	padding: 5px 20px;
@@ -49,19 +30,34 @@ ul li a{
 	transition: 0.6s ease;
 }
 
-ul li a:hover{
+ul li a:hover {
 	background-color: #fff;
 	color: #000;
 }
 
-.main{
-	max-width: 1200px;
+.main {
+	max-width: 1500px;
 	margin: auto;
-	right: 100%;
-	
+
 }
-ul li.active a{
+
+ul li.active a {
 	background-color: #fff;
 	color: #000;
 }
-/* end of nav bar */
+/* About Me Text */
+.about {
+	position: absolute;
+	float: middle;
+	font-size: x-large; 
+	color: black;
+	margin: middle;
+	font-weight: 900;
+	font-weight: bolder;
+	top: 140px;
+	
+}
+.logo {
+	position: absolute;
+	top: 20px;
+}
