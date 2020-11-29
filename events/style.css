@@ -70,25 +70,8 @@ ul li a:hover {
 }
 
 
-.smirk-events-thanksgiving {
-  position: absolute;
-  /* right: 0%;
-  top: 50%; */
-  color: black;
 
-  transform: translateY(-50%);
-  width: 50rem;
-}
 
-#link2 {
-  color: black;
-  font-size: x-large;
-}
-
-.smirk-events-thanksgiving, #link2 {
-  font-size: x-large;
-  right: 1px;
-}
 
 .events {
   position: absolute;
@@ -96,11 +79,7 @@ ul li a:hover {
   top: 300px;
   transform: translateY(-50%);
 }
-.smirk-events-thanksgiving {
-  position: absolute;
-  bottom: -59.7rem;
-  right: -50rem;
-}
+
 
 .smirk-events{
   position: absolute;

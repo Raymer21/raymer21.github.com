@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(/Ryamer21-background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.main {
+    max-width: 1650px;
+    margin: auto;
+    margin-left: 150px;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+}
+
+#form{
+    font-size: x-large;
+    border: 5px solid black;
+    position: absolute;
+    right: 50%;
+    top: 20%;
+    transform: translateY(50%);
+    width: 11rem;
+
+}
+
+#submit {
+    position: absolute;
+    right: 50%;
+    top: 15rem;
+    transform: translateY(50%);
+    width: 3rem;
+    height: 3rem;
+    font-size: x-large;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+#form, #submit {
+    position: absloute;
+    top: 5rem;
+    right: 45%;
+    height: 17rem;
+    width: 12.5rem;
+}
+
+#email, #phone-number, #username {
+    position: relative;
+    height: 50px;
+    width: 200px;
+}
+#submit {
+    position: absolute;
+    top: 5rem;
+    right: 100px;
+}
