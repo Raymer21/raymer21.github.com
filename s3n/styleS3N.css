@@ -1,0 +1,30 @@
+
+body{
+    background: linear-gradient(to right, rgb(39, 85, 185), rgb(18, 29, 65));
+    background-size: cover;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.s3n-welcome-text {
+    color: black;
+    font-size: xx-large;
+    animation: slide linear;
+}
+
+#s3n-welcome-a {
+    color: black;
+    font: 2rem;
+}
+
+.main-text1 {
+        font-size: x-large;
+
+}
+.main-text2 {
+        font-size: large;
+}
+.main-text2 a {
+        font-size: xx-large;
+        color: black;
+}
