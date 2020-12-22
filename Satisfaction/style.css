@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/1920x1080.png);
+}
+
+#SatisfactionText{
+    position: absolute;
+    align-items: center;
+    top: 12px;
+    right: 50%;
+    font: 900;
+}
+#SatisfactionParagraph{
+    position: absolute;
+    align-items: center;
+    right: 40%;
+    top: 50px;
+    font-size: x-large;
+}
+
+#WindowsDownload, #AndroidDownload{
+    position: relative;
+    font-size: large;
+    margin-top: 5rem;
+
+}
+#AndroidDownload{
+    width: 11rem;
+}
+
+.download{
+    position: absolute;
+    right: 50%;
+    top: 10%;
+}
